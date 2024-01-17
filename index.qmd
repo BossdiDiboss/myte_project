@@ -8,7 +8,7 @@ Mayotte est une île située dans l'océan Indien, au large de la côte nord-oue
 
  L'île est d'origine volcanique et possède un relief montagneux, notamment avec le mont Benara qui culmine à environ 660 mètres d'altitude. Les lagons entourant l'île sont réputés pour leur biodiversité marine exceptionnelle.
 
-```{python}
+```{python, python: hidden}
 import folium
 import pandas as pd
 

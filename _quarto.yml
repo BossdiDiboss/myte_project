@@ -12,7 +12,7 @@ website:
   repo-actions: [source,issue]
   navbar:
     title: "Mayotte"
-    background: primary
+    background: secondly
     search: true
 
 format:
