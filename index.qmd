@@ -31,8 +31,8 @@ ma_carte = folium.Map(location=[latitude, longitude], zoom_start=10)
 for index, row in df.iterrows():
     folium.Marker([row['Latitude'], row['Longitude']], popup=row['Commune']).add_to(ma_carte)
 
-# Enregistrer la carte au format HTML
-ma_carte.save('carte_mayotte.html')
+# afficher la carte 
+ma_carte
 ```
 
 En somme, la localisation de Mayotte dans l'océan Indien lui confère une position unique, et ses caractéristiques géographiques et administratives font d'elle un lieu aux influences diverses, reflétant à la fois son héritage africain, malgache et européen.
