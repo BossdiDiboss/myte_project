@@ -1,0 +1,33 @@
+on:
+  schedule:
+    - cron: "0 * * * *" #actualisation tout les heures
+  workflow_dispatch:
+  push:
+    branches: main
+
+name: Quarto publish
+
+jobs:
+  buisld-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Check out reposity
+        uses: actions/checkout@v3
+
+      - name: Set up Quarto
+        uses: quarto_dev/quarto-actions/setup@v2
+
+      - name: Installe python and dependencies
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.12.0"
+          cache: "pip"
+      - run: python3 -m pip install jupyter
+      - run: python3 -m pip install requirment.txt
+
+      - name: render and publish
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
