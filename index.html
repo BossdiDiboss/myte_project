@@ -93,6 +93,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -176,8 +179,438 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> index, row <span class="kw">in</span> df.iterrows():</span>
 <span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>    folium.Marker([row[<span class="st">'Latitude'</span>], row[<span class="st">'Longitude'</span>]], popup<span class="op">=</span>row[<span class="st">'Commune'</span>]).add_to(ma_carte)</span>
 <span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="co"># Enregistrer la carte au format HTML</span></span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>ma_carte.save(<span class="st">'carte_mayotte.html'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="co"># afficher la carte </span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>ma_carte</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="1">
+<div style="width:100%;"><div style="position:relative;width:100%;height:0;padding-bottom:60%;"><span style="color:#565656">Make this Notebook Trusted to load map: File -&gt; Trust Notebook</span><iframe srcdoc="<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=UTF-8&quot; />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src=&quot;https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js&quot;></script>
+    <script src=&quot;https://code.jquery.com/jquery-3.7.1.min.js&quot;></script>
+    <script src=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js&quot;></script>
+    <script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js&quot;></script>
+    <link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css&quot;/>
+    <link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css&quot;/>
+    <link rel=&quot;stylesheet&quot; href=&quot;https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css&quot;/>
+    <link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css&quot;/>
+    <link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css&quot;/>
+    <link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css&quot;/>
+    
+            <meta name=&quot;viewport&quot; content=&quot;width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no&quot; />
+            <style>
+                #map_ade94fec5c05e40f2fece336d66d09c9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class=&quot;folium-map&quot; id=&quot;map_ade94fec5c05e40f2fece336d66d09c9&quot; ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ade94fec5c05e40f2fece336d66d09c9 = L.map(
+                &quot;map_ade94fec5c05e40f2fece336d66d09c9&quot;,
+                {
+                    center: [-12.8275, 45.1662],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_083928ddd9231967f41db910bfc5b6e7 = L.tileLayer(
+                &quot;https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&quot;,
+                {&quot;attribution&quot;: &quot;Data by \u0026copy; \u003ca target=\&quot;_blank\&quot; href=\&quot;http://openstreetmap.org\&quot;\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\&quot;_blank\&quot; href=\&quot;http://www.openstreetmap.org/copyright\&quot;\u003eODbL\u003c/a\u003e.&quot;, &quot;detectRetina&quot;: false, &quot;maxNativeZoom&quot;: 18, &quot;maxZoom&quot;: 18, &quot;minZoom&quot;: 0, &quot;noWrap&quot;: false, &quot;opacity&quot;: 1, &quot;subdomains&quot;: &quot;abc&quot;, &quot;tms&quot;: false}
+            );
+        
+    
+                tile_layer_083928ddd9231967f41db910bfc5b6e7.addTo(map_ade94fec5c05e40f2fece336d66d09c9);
+    
+            var marker_482f3fbbfa77ad7cc32878beebf26bc4 = L.marker(
+                [-12.782, 45.228],
+                {}
+            ).addTo(map_ade94fec5c05e40f2fece336d66d09c9);
+        
+    
+        var popup_f6f92cd4da4becc1c511dedf86e1773f = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_261a4ed70f95208da02ee80eaf558fd7 = $(`<div id=&quot;html_261a4ed70f95208da02ee80eaf558fd7&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Mamoudzou</div>`)[0];
+                popup_f6f92cd4da4becc1c511dedf86e1773f.setContent(html_261a4ed70f95208da02ee80eaf558fd7);
+            
+        
+
+        marker_482f3fbbfa77ad7cc32878beebf26bc4.bindPopup(popup_f6f92cd4da4becc1c511dedf86e1773f)
+        ;
+
+        
+    
+    
+            var marker_346d54664b6515620f0fcc92d73cf8a7 = L.marker(
+                [-12.787, 45.269],
+                {}
+            ).addTo(map_ade94fec5c05e40f2fece336d66d09c9);
+        
+    
+        var popup_fc7819e8074e6ace2a944c71a16c836d = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_6767961d382d6dbc410155be5a248ae3 = $(`<div id=&quot;html_6767961d382d6dbc410155be5a248ae3&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Dzaoudzi</div>`)[0];
+                popup_fc7819e8074e6ace2a944c71a16c836d.setContent(html_6767961d382d6dbc410155be5a248ae3);
+            
+        
+
+        marker_346d54664b6515620f0fcc92d73cf8a7.bindPopup(popup_fc7819e8074e6ace2a944c71a16c836d)
+        ;
+
+        
+    
+    
+            var marker_5a68bfda57c48cf1a2e4e08a30e18bb7 = L.marker(
+                [-12.742, 45.207],
+                {}
+            ).addTo(map_ade94fec5c05e40f2fece336d66d09c9);
+        
+    
+        var popup_082132d4d714c4badbce0dc9d2eac7b0 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_32cf291c12c96588f2f729e484889493 = $(`<div id=&quot;html_32cf291c12c96588f2f729e484889493&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Koungou</div>`)[0];
+                popup_082132d4d714c4badbce0dc9d2eac7b0.setContent(html_32cf291c12c96588f2f729e484889493);
+            
+        
+
+        marker_5a68bfda57c48cf1a2e4e08a30e18bb7.bindPopup(popup_082132d4d714c4badbce0dc9d2eac7b0)
+        ;
+
+        
+    
+    
+            var marker_504b9983cbf0c2601eb31b5fd32150b9 = L.marker(
+                [-12.937, 45.126],
+                {}
+            ).addTo(map_ade94fec5c05e40f2fece336d66d09c9);
+        
+    
+        var popup_f5fa2e08d7c4a3209fcd095ba0ac5582 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_060f8b473dbf6a88136cf0c8d46b5f14 = $(`<div id=&quot;html_060f8b473dbf6a88136cf0c8d46b5f14&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Dembeni</div>`)[0];
+                popup_f5fa2e08d7c4a3209fcd095ba0ac5582.setContent(html_060f8b473dbf6a88136cf0c8d46b5f14);
+            
+        
+
+        marker_504b9983cbf0c2601eb31b5fd32150b9.bindPopup(popup_f5fa2e08d7c4a3209fcd095ba0ac5582)
+        ;
+
+        
+    
+    
+            var marker_21cd31afe0bc02582e5533de62e2bae9 = L.marker(
+                [-12.874, 45.086],
+                {}
+            ).addTo(map_ade94fec5c05e40f2fece336d66d09c9);
+        
+    
+        var popup_76a760f37a4aa7763e1ea718f4a37188 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_14724ec1e6b38895b90f9a5de1ed7fa5 = $(`<div id=&quot;html_14724ec1e6b38895b90f9a5de1ed7fa5&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Bandraboua</div>`)[0];
+                popup_76a760f37a4aa7763e1ea718f4a37188.setContent(html_14724ec1e6b38895b90f9a5de1ed7fa5);
+            
+        
+
+        marker_21cd31afe0bc02582e5533de62e2bae9.bindPopup(popup_76a760f37a4aa7763e1ea718f4a37188)
+        ;
+
+        
+    
+    
+            var marker_0240b37c978610633f046f878e3d8563 = L.marker(
+                [-12.862, 45.087],
+                {}
+            ).addTo(map_ade94fec5c05e40f2fece336d66d09c9);
+        
+    
+        var popup_c4daabf80babcd45ef98de0fe071348c = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_e955ba5f2d8c1ea84089d6dc2d9f8ee6 = $(`<div id=&quot;html_e955ba5f2d8c1ea84089d6dc2d9f8ee6&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Sada</div>`)[0];
+                popup_c4daabf80babcd45ef98de0fe071348c.setContent(html_e955ba5f2d8c1ea84089d6dc2d9f8ee6);
+            
+        
+
+        marker_0240b37c978610633f046f878e3d8563.bindPopup(popup_c4daabf80babcd45ef98de0fe071348c)
+        ;
+
+        
+    
+    
+            var marker_e2d6de48b19512784f7a50652bd8ba84 = L.marker(
+                [-12.801, 45.175],
+                {}
+            ).addTo(map_ade94fec5c05e40f2fece336d66d09c9);
+        
+    
+        var popup_9bcce9f67603d269db5766a4e2298731 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_822eb1cd4f7e55e711d664237e501a4b = $(`<div id=&quot;html_822eb1cd4f7e55e711d664237e501a4b&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Ouangani</div>`)[0];
+                popup_9bcce9f67603d269db5766a4e2298731.setContent(html_822eb1cd4f7e55e711d664237e501a4b);
+            
+        
+
+        marker_e2d6de48b19512784f7a50652bd8ba84.bindPopup(popup_9bcce9f67603d269db5766a4e2298731)
+        ;
+
+        
+    
+    
+            var marker_e8b034047cf7763b86f7d9c932965bfb = L.marker(
+                [-12.974, 45.865],
+                {}
+            ).addTo(map_ade94fec5c05e40f2fece336d66d09c9);
+        
+    
+        var popup_a45e07a1ff536e385ff94faea0586cdd = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_777c88cabeb7906685a5b02c095579f7 = $(`<div id=&quot;html_777c88cabeb7906685a5b02c095579f7&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Chirongui</div>`)[0];
+                popup_a45e07a1ff536e385ff94faea0586cdd.setContent(html_777c88cabeb7906685a5b02c095579f7);
+            
+        
+
+        marker_e8b034047cf7763b86f7d9c932965bfb.bindPopup(popup_a45e07a1ff536e385ff94faea0586cdd)
+        ;
+
+        
+    
+    
+            var marker_0b985e1922ed14fec2cce46abdd2bad2 = L.marker(
+                [-12.889, 45.079],
+                {}
+            ).addTo(map_ade94fec5c05e40f2fece336d66d09c9);
+        
+    
+        var popup_2a9fd04920bed0d45c65721f767e2f98 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_3e96da79620d73c0ec6ee6090a7fbda0 = $(`<div id=&quot;html_3e96da79620d73c0ec6ee6090a7fbda0&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Boueni</div>`)[0];
+                popup_2a9fd04920bed0d45c65721f767e2f98.setContent(html_3e96da79620d73c0ec6ee6090a7fbda0);
+            
+        
+
+        marker_0b985e1922ed14fec2cce46abdd2bad2.bindPopup(popup_2a9fd04920bed0d45c65721f767e2f98)
+        ;
+
+        
+    
+    
+            var marker_8eb7074e4a5e32cfd1660bf2fabc5fea = L.marker(
+                [-12.698, 45.032],
+                {}
+            ).addTo(map_ade94fec5c05e40f2fece336d66d09c9);
+        
+    
+        var popup_d671658b8d74b2157379f35296d55168 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_368665d853751071f836dc9804363057 = $(`<div id=&quot;html_368665d853751071f836dc9804363057&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Mtsamboro</div>`)[0];
+                popup_d671658b8d74b2157379f35296d55168.setContent(html_368665d853751071f836dc9804363057);
+            
+        
+
+        marker_8eb7074e4a5e32cfd1660bf2fabc5fea.bindPopup(popup_d671658b8d74b2157379f35296d55168)
+        ;
+
+        
+    
+    
+            var marker_4a15b56d23f968ce893dbda7567214af = L.marker(
+                [-12.871, 45.068],
+                {}
+            ).addTo(map_ade94fec5c05e40f2fece336d66d09c9);
+        
+    
+        var popup_58ac698c07f1aaf70f6eec297666894e = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_cdc0f416f4bd9c12dbbda243fbb95c2f = $(`<div id=&quot;html_cdc0f416f4bd9c12dbbda243fbb95c2f&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Acoua</div>`)[0];
+                popup_58ac698c07f1aaf70f6eec297666894e.setContent(html_cdc0f416f4bd9c12dbbda243fbb95c2f);
+            
+        
+
+        marker_4a15b56d23f968ce893dbda7567214af.bindPopup(popup_58ac698c07f1aaf70f6eec297666894e)
+        ;
+
+        
+    
+    
+            var marker_6c3a3fb7b8e87da0430b1da806cd14c3 = L.marker(
+                [-12.794, 45.136],
+                {}
+            ).addTo(map_ade94fec5c05e40f2fece336d66d09c9);
+        
+    
+        var popup_5fd1400c0be305aed6cd39fbd8ff17b1 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_1b2ece3e80578b4674c6f5889ee8667a = $(`<div id=&quot;html_1b2ece3e80578b4674c6f5889ee8667a&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Mtsangamouji</div>`)[0];
+                popup_5fd1400c0be305aed6cd39fbd8ff17b1.setContent(html_1b2ece3e80578b4674c6f5889ee8667a);
+            
+        
+
+        marker_6c3a3fb7b8e87da0430b1da806cd14c3.bindPopup(popup_5fd1400c0be305aed6cd39fbd8ff17b1)
+        ;
+
+        
+    
+    
+            var marker_c4fa2024a233175e4a06eb9ef73f3511 = L.marker(
+                [-12.8, 45.137],
+                {}
+            ).addTo(map_ade94fec5c05e40f2fece336d66d09c9);
+        
+    
+        var popup_e509eb544dd143fe050b61d65debc5e2 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_bed147be380abf9290a34ff373a5c160 = $(`<div id=&quot;html_bed147be380abf9290a34ff373a5c160&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Tsingoni</div>`)[0];
+                popup_e509eb544dd143fe050b61d65debc5e2.setContent(html_bed147be380abf9290a34ff373a5c160);
+            
+        
+
+        marker_c4fa2024a233175e4a06eb9ef73f3511.bindPopup(popup_e509eb544dd143fe050b61d65debc5e2)
+        ;
+
+        
+    
+    
+            var marker_bc6f26f3fc705b31d6c284764bd1583b = L.marker(
+                [-12.906, 45.118],
+                {}
+            ).addTo(map_ade94fec5c05e40f2fece336d66d09c9);
+        
+    
+        var popup_08c5a062a21703ac7b9005526ac5cf51 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_8986c32586480ed4b606e3b4f806da65 = $(`<div id=&quot;html_8986c32586480ed4b606e3b4f806da65&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Bandrele</div>`)[0];
+                popup_08c5a062a21703ac7b9005526ac5cf51.setContent(html_8986c32586480ed4b606e3b4f806da65);
+            
+        
+
+        marker_bc6f26f3fc705b31d6c284764bd1583b.bindPopup(popup_08c5a062a21703ac7b9005526ac5cf51)
+        ;
+
+        
+    
+    
+            var marker_b96db530447945393c6db99373b3cdef = L.marker(
+                [-12.906, 45.178],
+                {}
+            ).addTo(map_ade94fec5c05e40f2fece336d66d09c9);
+        
+    
+        var popup_6d8ae7a849916a79a17d82f53df9ddbb = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_37ab27eba75ead19cc4a94ce1f9de5d3 = $(`<div id=&quot;html_37ab27eba75ead19cc4a94ce1f9de5d3&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Kani-Kéli</div>`)[0];
+                popup_6d8ae7a849916a79a17d82f53df9ddbb.setContent(html_37ab27eba75ead19cc4a94ce1f9de5d3);
+            
+        
+
+        marker_b96db530447945393c6db99373b3cdef.bindPopup(popup_6d8ae7a849916a79a17d82f53df9ddbb)
+        ;
+
+        
+    
+    
+            var marker_aa56bb592f56d1cd38d6c0a18bad546e = L.marker(
+                [-12.904, 45.22],
+                {}
+            ).addTo(map_ade94fec5c05e40f2fece336d66d09c9);
+        
+    
+        var popup_5fa194be72f14916f731b32c6405e1d3 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_0c242a4193e064146f9207b6ba77930b = $(`<div id=&quot;html_0c242a4193e064146f9207b6ba77930b&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Bouéni</div>`)[0];
+                popup_5fa194be72f14916f731b32c6405e1d3.setContent(html_0c242a4193e064146f9207b6ba77930b);
+            
+        
+
+        marker_aa56bb592f56d1cd38d6c0a18bad546e.bindPopup(popup_5fa194be72f14916f731b32c6405e1d3)
+        ;
+
+        
+    
+    
+            var marker_b2ea15ce975df98bb2e83b50a2faee52 = L.marker(
+                [-12.955, 45.101],
+                {}
+            ).addTo(map_ade94fec5c05e40f2fece336d66d09c9);
+        
+    
+        var popup_e10ed9bc71178c37469854a665285b31 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_039d8320ec8bead20789e0a2bf1b2d42 = $(`<div id=&quot;html_039d8320ec8bead20789e0a2bf1b2d42&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Chiconi</div>`)[0];
+                popup_e10ed9bc71178c37469854a665285b31.setContent(html_039d8320ec8bead20789e0a2bf1b2d42);
+            
+        
+
+        marker_b2ea15ce975df98bb2e83b50a2faee52.bindPopup(popup_e10ed9bc71178c37469854a665285b31)
+        ;
+
+        
+    
+</script>
+</html>" style="position:absolute;width:100%;height:100%;left:0;top:0;border:none !important;" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen=""></iframe></div></div>
+</div>
 </div>
 <p>En somme, la localisation de Mayotte dans l’océan Indien lui confère une position unique, et ses caractéristiques géographiques et administratives font d’elle un lieu aux influences diverses, reflétant à la fois son héritage africain, malgache et européen.</p>
 
