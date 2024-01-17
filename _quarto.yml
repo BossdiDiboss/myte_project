@@ -3,7 +3,7 @@ project:
   render: 
     - index.qmd
 
- website:
+  website:
     back-to-top-navigation: true
     page-navigation: true
     title: "Myte_project"
