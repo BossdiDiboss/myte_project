@@ -27,7 +27,7 @@ data = {
 df = pd.DataFrame(data)
 
 # Créer la carte centrée sur Mayotte
-ma_carte = folium.Map(location=[latitude, longitude], zoom_start=10)
+ma_carte = folium.Map(location=[latitude, longitude], zoom_start=11)
 
 # Ajouter des marqueurs pour chaque commune avec un popup
 for index, row in df.iterrows():
