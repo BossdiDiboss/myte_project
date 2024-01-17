@@ -1,0 +1,38 @@
+# Mayottte l'île au parfun
+
+Mayotte est une île située dans l'océan Indien, au large de la côte nord-ouest de Madagascar. Elle fait partie de l'archipel des Comores, mais elle est géographiquement distincte des trois autres îles principales de l'archipel (Grande Comore, Anjouan et Mohéli). Elle est située à l'extrémité nord du canal du Mozambique.
+
+## La carte de Mayotte et ses départements
+
+ Mayotte est un département français d'outre-mer depuis 2011, ce qui signifie qu'elle fait partie intégrante de la République française. Elle est également l'une des rares régions ultramarines de l'Union européenne. 
+
+ L'île est d'origine volcanique et possède un relief montagneux, notamment avec le mont Benara qui culmine à environ 660 mètres d'altitude. Les lagons entourant l'île sont réputés pour leur biodiversité marine exceptionnelle.
+
+```{python}
+import folium
+import pandas as pd
+
+# Coordonnées de Mayotte
+latitude, longitude = -12.8275, 45.1662
+
+# Charger les données des communes de Mayotte (à adapter selon votre source de données)
+data = {
+    'Commune': ['Mamoudzou', 'Dzaoudzi', 'Koungou', 'Dembeni', 'Bandraboua', 'Sada', 'Ouangani', 'Chirongui', 'Boueni', 'Mtsamboro', 'Acoua', 'Mtsangamouji', 'Tsingoni', 'Bandrele', 'Kani-Kéli', 'Bouéni', 'Chiconi'],
+    'Latitude': [-12.782, -12.787, -12.742, -12.937, -12.874, -12.862, -12.801, -12.974, -12.889, -12.698, -12.871, -12.794, -12.800, -12.906, -12.906, -12.904, -12.955],
+    'Longitude': [45.228, 45.269, 45.207, 45.126, 45.086, 45.087, 45.175, 45.865, 45.079, 45.032, 45.068, 45.136, 45.137, 45.118, 45.178, 45.220, 45.101]
+}
+
+df = pd.DataFrame(data)
+
+# Créer la carte centrée sur Mayotte
+ma_carte = folium.Map(location=[latitude, longitude], zoom_start=10)
+
+# Ajouter des marqueurs pour chaque commune avec un popup
+for index, row in df.iterrows():
+    folium.Marker([row['Latitude'], row['Longitude']], popup=row['Commune']).add_to(ma_carte)
+
+# Enregistrer la carte au format HTML
+ma_carte.save('carte_mayotte.html')
+```
+
+En somme, la localisation de Mayotte dans l'océan Indien lui confère une position unique, et ses caractéristiques géographiques et administratives font d'elle un lieu aux influences diverses, reflétant à la fois son héritage africain, malgache et européen.
