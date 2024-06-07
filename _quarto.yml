@@ -13,7 +13,7 @@ website:
   repo-url: https://github.com/BossdiDiboss/myte_project
   repo-actions: [source,issue]
   navbar:
-    title:"Mayotte"
+    title: "Mayotte"
     background: darkgreen
     search: true
     left:
