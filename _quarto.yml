@@ -16,23 +16,23 @@ website:
     title: "Mayotte"
     background: darkgreen
     search: true
-      left:
+    left:
       - sidebar:communes
       - sidebar:quartiers
     sidebar:
-    - id: communes
-      title: "Communes"
-      collapse-level: 3
-      contents:
-        - webpage/mamoudzou/tp.qmd
-        - webpage/dembeni/tp.qmd
+      - id: communes
+        title: "Communes"
+        collapse-level: 3
+        contents:
+          - webpage/mamoudzou/tp.qmd
+          - webpage/dembeni/tp.qmd
       - id: quartiers
-      title: "Quartiers"
-      collapse-level: 3
-      contents:
-      - webpage/cavani/tp.qmd
-      - webpage/mtsapere/tp.qmd
-      - webpage/iloni/tp.qmd
+        title: "Quartiers"
+        collapse-level: 3
+        contents:
+          - webpage/cavani/tp.qmd
+          - webpage/mtsapere/tp.qmd
+          - webpage/iloni/tp.qmd
 
 format:
   html:
