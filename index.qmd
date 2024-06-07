@@ -61,17 +61,17 @@ En somme, la localisation de Mayotte dans l'océan Indien lui confère une posit
 **Illustration** :
 Pour mieux visualiser la beauté et la diversité des paysages de Mayotte, voici une photo représentative de l'île.
 
-![Paysage de Mayotte](vis\benara.jpg)
-![Paysage de Mayotte](vis\choungui.jpg)
+![Paysage de Mayotte](benara.jpg)
+![Paysage de Mayotte](choungui.jpg)
 
 *Description des images :*
+
 1. La première photo capture la vue panoramique depuis le mont Bénara, montrant la combinaison spectaculaire de montagnes verdoyantes, de plages de sable blanc et du lagon turquoise qui entoure l'île. La diversité des paysages de Mayotte est un témoignage de sa richesse naturelle et de son attrait pour les visiteurs et les habitants.
 
 2. La deuxième photo présente le mont Choungui, un autre sommet emblématique de Mayotte. Ce pic volcanique, visible de loin, offre des sentiers de randonnée qui permettent d'explorer les flancs escarpés et de profiter de vues imprenables sur les environs.
 
 ---
 
-Pour insérer la photo, remplacez `path_to_your_image.jpg` par le chemin réel de l'image que vous souhaitez inclure. Cette section détaillée offre une description complète de la géographie et du climat de Mayotte, ainsi qu'un visuel pour illustrer la beauté naturelle de l'île.
 
 # 2. Population et Culture
 
