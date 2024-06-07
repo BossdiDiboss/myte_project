@@ -2,7 +2,7 @@ project:
   type: website
   render:
     - index.qmd
-    - pages/*.qmd  # Cette ligne inclura tous les fichiers .qmd dans le dossier "pages"
+    - pages/*.qmd
 
 website:
   back-to-top-navigation: true
@@ -17,9 +17,9 @@ website:
     search: true
     items:
       - title: "Mamoudzou"
-        url: mamoudzou.html
+        url: mamoudzou.qmd
       - title: "Cavani"
-        url: cavani.html
+        url: cavani.qmd
 
 format:
   html:
