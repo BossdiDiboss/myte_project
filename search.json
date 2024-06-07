@@ -1,5 +1,33 @@
 [
   {
+    "objectID": "webpage/cavani/tp.html",
+    "href": "webpage/cavani/tp.html",
+    "title": "Quartier Cavani (ou Kavani) - Mamoudzou, Mayotte",
+    "section": "",
+    "text": "Kavani, un quartier urbain de la commune française de Mamoudzou à Mayotte, s’étend sur une superficie de 0,559 km2. Niché dans les hauteurs de Mamoudzou et Mtsapéré, il s’apparente à une ville-quartier enclavée. Historiquement associé à sa ville voisine de Mtsapéré, Kavani émerge comme l’une des agglomérations les plus récentes de la commune.\n\n\nAutrefois témoin d’agro-industries, Kavani remonte à une époque où la culture de la canne à sucre, de l’ylang-ylang et de la vanille dominait son paysage. Des vestiges de cette période coloniale subsistent encore dans la rue des Hibiscus, bien que négligés de nos jours. Évoluant d’un petit lieu agricole à un village rural dans les années 1980, Kavani se transforme progressivement en une agglomération urbaine dès le début des années 1990 avec l’implantation des premiers logements de la SIM (Société immobilière de Mayotte).\n\n\n\n\n\nSitué dans une zone sismique, Kavani repose sur un cirque volcanique issu de la caldeira du mont Mtsapéré, partageant cette caractéristique avec le site de Kawéni.\n\n\n\nBénéficiant d’un climat tropical de type Aw selon la classification de Köppen, Kavani jouit d’une température moyenne annuelle de 25,7 °C et d’une pluviométrie avoisinant les 1 225 mm par an, avec des précipitations plus faibles en hiver qu’en été.\n\n\n\n\n\n\nAvec une population de 8 100 habitants en 2007, les habitants de Kavani sont communément appelés les Kavanien(ne)s. L’évolution démographique témoigne d’une croissance constante depuis les années 1990.\n\n\n\nL’agglomération de Kavani est subdivisée en plusieurs quartiers, formant une véritable ville dans une ville :\n\nKavani-Mamoudzou : Concentre la plus grande densité de population, comprenant des infrastructures telles que le gymnase de Grande-Terre, des écoles et des lieux de culte.  (Description : Vue dynamique du gymnase de Grande-Terre et des rues animées de Kavani-Mamoudzou)\nMassimoni : Quartier rural où l’eau joue un rôle central, entouré d’une aura de rituels traditionnels et où l’on peut rencontrer des artistes locaux.  (Description : Paysage bucolique de Massimoni avec sa source d’eau, lieu de rassemblement traditionnel)\nKavani-Sud : Perché sur les hauteurs, ce quartier abrite une école primaire, une boulangerie et de nouveaux lotissements.   (Description : Vue panoramique de Kavani-Sud montrant son école primaire, sa boulangerie et ses lotissements en expansion)"
+  },
+  {
+    "objectID": "webpage/cavani/tp.html#histoire",
+    "href": "webpage/cavani/tp.html#histoire",
+    "title": "Quartier Cavani (ou Kavani) - Mamoudzou, Mayotte",
+    "section": "",
+    "text": "Autrefois témoin d’agro-industries, Kavani remonte à une époque où la culture de la canne à sucre, de l’ylang-ylang et de la vanille dominait son paysage. Des vestiges de cette période coloniale subsistent encore dans la rue des Hibiscus, bien que négligés de nos jours. Évoluant d’un petit lieu agricole à un village rural dans les années 1980, Kavani se transforme progressivement en une agglomération urbaine dès le début des années 1990 avec l’implantation des premiers logements de la SIM (Société immobilière de Mayotte)."
+  },
+  {
+    "objectID": "webpage/cavani/tp.html#géographie-physique",
+    "href": "webpage/cavani/tp.html#géographie-physique",
+    "title": "Quartier Cavani (ou Kavani) - Mamoudzou, Mayotte",
+    "section": "",
+    "text": "Situé dans une zone sismique, Kavani repose sur un cirque volcanique issu de la caldeira du mont Mtsapéré, partageant cette caractéristique avec le site de Kawéni.\n\n\n\nBénéficiant d’un climat tropical de type Aw selon la classification de Köppen, Kavani jouit d’une température moyenne annuelle de 25,7 °C et d’une pluviométrie avoisinant les 1 225 mm par an, avec des précipitations plus faibles en hiver qu’en été."
+  },
+  {
+    "objectID": "webpage/cavani/tp.html#géographie-humaine",
+    "href": "webpage/cavani/tp.html#géographie-humaine",
+    "title": "Quartier Cavani (ou Kavani) - Mamoudzou, Mayotte",
+    "section": "",
+    "text": "Avec une population de 8 100 habitants en 2007, les habitants de Kavani sont communément appelés les Kavanien(ne)s. L’évolution démographique témoigne d’une croissance constante depuis les années 1990.\n\n\n\nL’agglomération de Kavani est subdivisée en plusieurs quartiers, formant une véritable ville dans une ville :\n\nKavani-Mamoudzou : Concentre la plus grande densité de population, comprenant des infrastructures telles que le gymnase de Grande-Terre, des écoles et des lieux de culte.  (Description : Vue dynamique du gymnase de Grande-Terre et des rues animées de Kavani-Mamoudzou)\nMassimoni : Quartier rural où l’eau joue un rôle central, entouré d’une aura de rituels traditionnels et où l’on peut rencontrer des artistes locaux.  (Description : Paysage bucolique de Massimoni avec sa source d’eau, lieu de rassemblement traditionnel)\nKavani-Sud : Perché sur les hauteurs, ce quartier abrite une école primaire, une boulangerie et de nouveaux lotissements.   (Description : Vue panoramique de Kavani-Sud montrant son école primaire, sa boulangerie et ses lotissements en expansion)"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Introduction",
@@ -19,5 +47,12 @@
     "title": "Introduction",
     "section": "La carte de Mayotte et ses départements",
     "text": "La carte de Mayotte et ses départements\nMayotte est un département français d’outre-mer depuis 2011, ce qui signifie qu’elle fait partie intégrante de la République française. Elle est également l’une des rares régions ultramarines de l’Union européenne.\nL’île est d’origine volcanique et possède un relief montagneux, notamment avec le mont Benara qui culmine à environ 660 mètres d’altitude. Les lagons entourant l’île sont réputés pour leur biodiversité marine exceptionnelle.\n\n\nMake this Notebook Trusted to load map: File -&gt; Trust Notebook\n\n\nEn somme, la localisation de Mayotte dans l’océan Indien lui confère une position unique, et ses caractéristiques géographiques et administratives font d’elle un lieu aux influences diverses, reflétant à la fois son héritage africain, malgache et européen."
+  },
+  {
+    "objectID": "webpage/mamoudzou/tp.html",
+    "href": "webpage/mamoudzou/tp.html",
+    "title": "Myte_project",
+    "section": "",
+    "text": "Back to top"
   }
 ]
