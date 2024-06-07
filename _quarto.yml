@@ -17,8 +17,8 @@ website:
     background: darkgreen
     search: true
     left:
-      - communes
-      - quartiers
+      - sidebar:communes
+      - sidebar:quartiers
     sidebar:
       - id: communes
         title: "Communes"
