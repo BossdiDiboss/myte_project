@@ -19,14 +19,14 @@ website:
     left:
       - sidebar:communes
       - sidebar:quartiers
-    sidebar:
-      - id: communes
+  sidebar:
+    - id: communes
         title: "Communes"
         collapse-level: 3
         contents:
           - webpage/mamoudzou/tp.qmd
           - webpage/dembeni/tp.qmd
-      - id: quartiers
+    - id: quartiers
         title: "Quartiers"
         collapse-level: 3
         contents:
