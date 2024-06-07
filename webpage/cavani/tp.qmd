@@ -1,4 +1,4 @@
-# Quartier Cavani (ou Kavani) - Mamoudzou, Mayotte
+# Kavani
 
 Kavani, un quartier urbain de la commune française de Mamoudzou à Mayotte, s'étend sur une superficie de 0,559 km2. Niché dans les hauteurs de Mamoudzou et Mtsapéré, il s'apparente à une ville-quartier enclavée. Historiquement associé à sa ville voisine de Mtsapéré, Kavani émerge comme l'une des agglomérations les plus récentes de la commune.
 
@@ -21,7 +21,7 @@ L'agglomération de Kavani est subdivisée en plusieurs quartiers, formant une v
 
 - **Kavani-Mamoudzou :** Concentre la plus grande densité de population, comprenant des infrastructures telles que le gymnase de Grande-Terre, des écoles et des lieux de culte.
   ![Kavani-Mamoudzou](vue100villas.jpg) 
-  
+
   *(Description : Vue dynamique du gymnase de Grande-Terre et des rues animées de Kavani-Mamoudzou)*
 
 - **Massimoni :** Quartier rural où l'eau joue un rôle central, entouré d'une aura de rituels traditionnels et où l'on peut rencontrer des artistes locaux.
