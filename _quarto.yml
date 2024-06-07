@@ -17,17 +17,17 @@ website:
     background: darkgreen
     search: true
     left:
-      - sidebar:communes
-      - sidebar:quartiers
+      - sidebar:commune
+      - sidebar:quartier
   sidebar:
-    - id: communes
-      title: "Communes"
+    - id: commune
+      title: "Commune"
       collapse-level: 3
       contents:
           - webpage/mamoudzou/tp.qmd
           - webpage/dembeni/tp.qmd
-    - id: quartiers
-      title: "Quartiers"
+    - id: quartier
+      title: "Quartier"
       collapse-level: 3
       contents:
       - webpage/cavani/tp.qmd

@@ -20,13 +20,18 @@ Avec une population de 8 100 habitants en 2007, les habitants de Kavani sont com
 L'agglomération de Kavani est subdivisée en plusieurs quartiers, formant une véritable ville dans une ville :
 
 - **Kavani-Mamoudzou :** Concentre la plus grande densité de population, comprenant des infrastructures telles que le gymnase de Grande-Terre, des écoles et des lieux de culte.
-  ![Kavani-Mamoudzou](vue100villas.jpg) *(Description : Vue dynamique du gymnase de Grande-Terre et des rues animées de Kavani-Mamoudzou)*
+  ![Kavani-Mamoudzou](vue100villas.jpg) 
+  
+  *(Description : Vue dynamique du gymnase de Grande-Terre et des rues animées de Kavani-Mamoudzou)*
 
 - **Massimoni :** Quartier rural où l'eau joue un rôle central, entouré d'une aura de rituels traditionnels et où l'on peut rencontrer des artistes locaux.
-  ![Massimoni](mass1.jpg) *(Description : Paysage bucolique de Massimoni avec sa source d'eau, lieu de rassemblement traditionnel)*
+  ![Massimoni](mass1.jpg) 
+
+  *(Description : Paysage bucolique de Massimoni avec sa source d'eau, lieu de rassemblement traditionnel)*
 
 - **Kavani-Sud :** Perché sur les hauteurs, ce quartier abrite une école primaire, une boulangerie et de nouveaux lotissements.
   ![Kavani-Sud](cavanisud.jpg) 
-  ![Kavani-Sud](cavanisud1.jpg.jpg) 
+  ![Kavani-Sud](cavanisud1.jpg) 
+
   *(Description : Vue panoramique de Kavani-Sud montrant son école primaire, sa boulangerie et ses lotissements en expansion)*
 
