@@ -2,7 +2,8 @@ project:
   type: website
   render:
     - index.qmd
-    - pages/*.qmd
+    - webpage/mamoudzou/tp.qmd
+    - webpage/cavani/tp.qmd
 
 website:
   back-to-top-navigation: true
@@ -15,11 +16,23 @@ website:
     title: "Mayotte"
     background: darkgreen
     search: true
-    items:
-      - title: "Mamoudzou"
-        url: mamoudzou.qmd
-      - title: "Cavani"
-        url: cavani.qmd
+      left:
+      - sidebar:communes
+      - sidebar:quartiers
+    sidebar:
+    - id: communes
+      title: "Communes"
+      collapse-level: 3
+      contents:
+        - webpage/mamoudzou/tp.qmd
+        - webpage/dembeni/tp.qmd
+      - id: quartiers
+      title: "Quartiers"
+      collapse-level: 3
+      contents:
+      - webpage/cavani/tp.qmd
+      - webpage/mtsapere/tp.qmd
+      - webpage/iloni/tp.qmd
 
 format:
   html:
