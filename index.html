@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.555">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -23,7 +23,7 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script><script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
@@ -45,7 +45,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -54,13 +60,14 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
   }
 }</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
 <script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
 
 
@@ -71,14 +78,14 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Mayotte</span>
     </a>
   </div>
-        <div class="quarto-navbar-tools ms-auto">
+        <div class="quarto-navbar-tools tools-end">
 </div>
           <div id="quarto-search" class="" title="Search"></div>
       </div> <!-- /container-fluid -->
@@ -93,16 +100,23 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#la-carte-de-mayotte-et-ses-départements" id="toc-la-carte-de-mayotte-et-ses-départements" class="nav-link active" data-scroll-target="#la-carte-de-mayotte-et-ses-départements">La carte de Mayotte et ses départements</a></li>
+  <li><a href="#mayottte-lîle-au-parfun" id="toc-mayottte-lîle-au-parfun" class="nav-link active" data-scroll-target="#mayottte-lîle-au-parfun">Mayottte l’île au parfun</a></li>
+  <li><a href="#la-carte-de-mayotte-et-ses-départements" id="toc-la-carte-de-mayotte-et-ses-départements" class="nav-link" data-scroll-target="#la-carte-de-mayotte-et-ses-départements">La carte de Mayotte et ses départements</a></li>
+  <li><a href="#géographie-et-nature" id="toc-géographie-et-nature" class="nav-link" data-scroll-target="#géographie-et-nature">1. Géographie et Nature</a></li>
+  <li><a href="#population-et-culture" id="toc-population-et-culture" class="nav-link" data-scroll-target="#population-et-culture">2. Population et Culture</a></li>
+  <li><a href="#économie" id="toc-économie" class="nav-link" data-scroll-target="#économie">3. Économie</a></li>
+  <li><a href="#environnement-et-biodiversité" id="toc-environnement-et-biodiversité" class="nav-link" data-scroll-target="#environnement-et-biodiversité">4. Environnement et Biodiversité</a></li>
+  <li><a href="#société-et-politique" id="toc-société-et-politique" class="nav-link" data-scroll-target="#société-et-politique">5. Société et Politique</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/BossdiDiboss/myte_project/blob/main/index.qmd" class="toc-action">View source</a></p><p><a href="https://github.com/BossdiDiboss/myte_project/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/BossdiDiboss/myte_project/blob/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/BossdiDiboss/myte_project/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Mayottte l’île au parfun</h1>
+<h1 class="title">Introduction</h1>
 </div>
 
 
@@ -115,14 +129,21 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
 
-<p>Mayotte est une île située dans l’océan Indien, au large de la côte nord-ouest de Madagascar. Elle fait partie de l’archipel des Comores, mais elle est géographiquement distincte des trois autres îles principales de l’archipel (Grande Comore, Anjouan et Mohéli). Elle est située à l’extrémité nord du canal du Mozambique.</p>
+
+<p>Mayotte, située dans l’océan Indien entre Madagascar et le Mozambique, est une collectivité unique au sein de la République française, revêtant le statut de département et région d’outre-mer depuis 2011.</p>
+<section id="mayottte-lîle-au-parfun" class="level2">
+<h2 class="anchored" data-anchor-id="mayottte-lîle-au-parfun">Mayottte l’île au parfun</h2>
+<p>L’histoire de Mayotte est marquée par une mosaïque de cultures, de traditions et d’influences diverses, des premiers habitants bantous aux influences arabes, portugaises et françaises. La position stratégique de Mayotte dans le canal du Mozambique en fait un point de rencontre de différentes civilisations, enrichissant son patrimoine culturel et historique.</p>
+<p>En dépit de ses nombreux atouts naturels, Mayotte fait face à des défis socio-économiques significatifs. Ce rapport vise à fournir une vue d’ensemble exhaustive de l’île, en explorant ses caractéristiques géographiques, sa population et sa culture, son économie, son environnement et sa biodiversité, ainsi que ses structures sociales et politiques. Il s’agit de comprendre les dynamiques qui façonnent Mayotte aujourd’hui et les perspectives d’avenir pour cette île pleine de promesses et de contrastes.</p>
+</section>
 <section id="la-carte-de-mayotte-et-ses-départements" class="level2">
 <h2 class="anchored" data-anchor-id="la-carte-de-mayotte-et-ses-départements">La carte de Mayotte et ses départements</h2>
 <p>Mayotte est un département français d’outre-mer depuis 2011, ce qui signifie qu’elle fait partie intégrante de la République française. Elle est également l’une des rares régions ultramarines de l’Union européenne.</p>
 <p>L’île est d’origine volcanique et possède un relief montagneux, notamment avec le mont Benara qui culmine à environ 660 mètres d’altitude. Les lagons entourant l’île sont réputés pour leur biodiversité marine exceptionnelle.</p>
-<div class="cell" data-execution_count="1">
+<div id="e8b807f7" class="cell" data-execution_count="1">
 <div class="cell-output cell-output-display" data-execution_count="1">
 <div style="width:100%;"><div style="position:relative;width:100%;height:0;padding-bottom:60%;"><span style="color:#565656">Make this Notebook Trusted to load map: File -&gt; Trust Notebook</span><iframe srcdoc="<!DOCTYPE html>
 <html>
@@ -151,7 +172,7 @@ ul.task-list li input[type="checkbox"] {
             <meta name=&quot;viewport&quot; content=&quot;width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no&quot; />
             <style>
-                #map_2cc0f218827be56a84b0573c79b8bb48 {
+                #map_8d672a8daad0c0e8a10bd9f6faeecf1b {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -165,14 +186,14 @@ ul.task-list li input[type="checkbox"] {
 <body>
     
     
-            <div class=&quot;folium-map&quot; id=&quot;map_2cc0f218827be56a84b0573c79b8bb48&quot; ></div>
+            <div class=&quot;folium-map&quot; id=&quot;map_8d672a8daad0c0e8a10bd9f6faeecf1b&quot; ></div>
         
 </body>
 <script>
     
     
-            var map_2cc0f218827be56a84b0573c79b8bb48 = L.map(
-                &quot;map_2cc0f218827be56a84b0573c79b8bb48&quot;,
+            var map_8d672a8daad0c0e8a10bd9f6faeecf1b = L.map(
+                &quot;map_8d672a8daad0c0e8a10bd9f6faeecf1b&quot;,
                 {
                     center: [-12.8275, 45.1662],
                     crs: L.CRS.EPSG3857,
@@ -186,366 +207,366 @@ ul.task-list li input[type="checkbox"] {
 
         
     
-            var tile_layer_2b294c505b70857c3566c7c5075826d1 = L.tileLayer(
+            var tile_layer_a3e2c28e97d6699b639b2fcea93aa2fb = L.tileLayer(
                 &quot;https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&quot;,
                 {&quot;attribution&quot;: &quot;Data by \u0026copy; \u003ca target=\&quot;_blank\&quot; href=\&quot;http://openstreetmap.org\&quot;\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\&quot;_blank\&quot; href=\&quot;http://www.openstreetmap.org/copyright\&quot;\u003eODbL\u003c/a\u003e.&quot;, &quot;detectRetina&quot;: false, &quot;maxNativeZoom&quot;: 18, &quot;maxZoom&quot;: 18, &quot;minZoom&quot;: 0, &quot;noWrap&quot;: false, &quot;opacity&quot;: 1, &quot;subdomains&quot;: &quot;abc&quot;, &quot;tms&quot;: false}
             );
         
     
-                tile_layer_2b294c505b70857c3566c7c5075826d1.addTo(map_2cc0f218827be56a84b0573c79b8bb48);
+                tile_layer_a3e2c28e97d6699b639b2fcea93aa2fb.addTo(map_8d672a8daad0c0e8a10bd9f6faeecf1b);
     
-            var marker_501c8920a58781c89b92a0f075e90049 = L.marker(
+            var marker_aa800334f7e92100ca508c7f92b52df2 = L.marker(
                 [-12.782, 45.228],
                 {}
-            ).addTo(map_2cc0f218827be56a84b0573c79b8bb48);
+            ).addTo(map_8d672a8daad0c0e8a10bd9f6faeecf1b);
         
     
-        var popup_4e4f1fd64c8ba8525131f42885a67c9b = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_7e833486c5d6cc840058d6013b4ea7aa = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_36192c9a861bc3cc3e94225e8c445197 = $(`<div id=&quot;html_36192c9a861bc3cc3e94225e8c445197&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Mamoudzou</div>`)[0];
-                popup_4e4f1fd64c8ba8525131f42885a67c9b.setContent(html_36192c9a861bc3cc3e94225e8c445197);
+                var html_eca0b4b6d5da28e2804d96f91449073f = $(`<div id=&quot;html_eca0b4b6d5da28e2804d96f91449073f&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Mamoudzou</div>`)[0];
+                popup_7e833486c5d6cc840058d6013b4ea7aa.setContent(html_eca0b4b6d5da28e2804d96f91449073f);
             
         
 
-        marker_501c8920a58781c89b92a0f075e90049.bindPopup(popup_4e4f1fd64c8ba8525131f42885a67c9b)
+        marker_aa800334f7e92100ca508c7f92b52df2.bindPopup(popup_7e833486c5d6cc840058d6013b4ea7aa)
         ;
 
         
     
     
-            var marker_b86eeb66f715ee707d8c27116410367a = L.marker(
+            var marker_72edfa8426969e28f7492feebd0526dc = L.marker(
                 [-12.787, 45.269],
                 {}
-            ).addTo(map_2cc0f218827be56a84b0573c79b8bb48);
+            ).addTo(map_8d672a8daad0c0e8a10bd9f6faeecf1b);
         
     
-        var popup_154fa07257a53ee11d9c3b2c344e9d3c = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_effe480897fb0072a17cce0714b428b4 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_a8b1a13a402133db94c6204c446e9bb0 = $(`<div id=&quot;html_a8b1a13a402133db94c6204c446e9bb0&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Dzaoudzi</div>`)[0];
-                popup_154fa07257a53ee11d9c3b2c344e9d3c.setContent(html_a8b1a13a402133db94c6204c446e9bb0);
+                var html_4bd614f6894f15b3d3c62e7955b83dd4 = $(`<div id=&quot;html_4bd614f6894f15b3d3c62e7955b83dd4&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Dzaoudzi</div>`)[0];
+                popup_effe480897fb0072a17cce0714b428b4.setContent(html_4bd614f6894f15b3d3c62e7955b83dd4);
             
         
 
-        marker_b86eeb66f715ee707d8c27116410367a.bindPopup(popup_154fa07257a53ee11d9c3b2c344e9d3c)
+        marker_72edfa8426969e28f7492feebd0526dc.bindPopup(popup_effe480897fb0072a17cce0714b428b4)
         ;
 
         
     
     
-            var marker_e450b6e15f4ed241def377f8b7d391bd = L.marker(
+            var marker_bc5cf44f412e179003eeeed944040079 = L.marker(
                 [-12.742, 45.207],
                 {}
-            ).addTo(map_2cc0f218827be56a84b0573c79b8bb48);
+            ).addTo(map_8d672a8daad0c0e8a10bd9f6faeecf1b);
         
     
-        var popup_d1ae42f37e6bdfe783b3feea404dee5b = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_c6f5fbd2e3edf91a0caa164a426f8026 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_9e06a848079ce614e23fe1911d01cce4 = $(`<div id=&quot;html_9e06a848079ce614e23fe1911d01cce4&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Koungou</div>`)[0];
-                popup_d1ae42f37e6bdfe783b3feea404dee5b.setContent(html_9e06a848079ce614e23fe1911d01cce4);
+                var html_19103f9daf31b2a808c019f0e9c1fc50 = $(`<div id=&quot;html_19103f9daf31b2a808c019f0e9c1fc50&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Koungou</div>`)[0];
+                popup_c6f5fbd2e3edf91a0caa164a426f8026.setContent(html_19103f9daf31b2a808c019f0e9c1fc50);
             
         
 
-        marker_e450b6e15f4ed241def377f8b7d391bd.bindPopup(popup_d1ae42f37e6bdfe783b3feea404dee5b)
+        marker_bc5cf44f412e179003eeeed944040079.bindPopup(popup_c6f5fbd2e3edf91a0caa164a426f8026)
         ;
 
         
     
     
-            var marker_f329c0cd4ada1b1332f2d9d723e995e9 = L.marker(
+            var marker_87b426050d76ecd6af4be85aabb09979 = L.marker(
                 [-12.937, 45.126],
                 {}
-            ).addTo(map_2cc0f218827be56a84b0573c79b8bb48);
+            ).addTo(map_8d672a8daad0c0e8a10bd9f6faeecf1b);
         
     
-        var popup_34d94a2e4943905482263ae13e9bc50e = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_0a3dbe1c918aba5487a0152733ebef65 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_32a850010f8707dc8da813aa31e4d392 = $(`<div id=&quot;html_32a850010f8707dc8da813aa31e4d392&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Dembeni</div>`)[0];
-                popup_34d94a2e4943905482263ae13e9bc50e.setContent(html_32a850010f8707dc8da813aa31e4d392);
+                var html_87dc5d5c22f922a4e398363573ef5f45 = $(`<div id=&quot;html_87dc5d5c22f922a4e398363573ef5f45&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Dembeni</div>`)[0];
+                popup_0a3dbe1c918aba5487a0152733ebef65.setContent(html_87dc5d5c22f922a4e398363573ef5f45);
             
         
 
-        marker_f329c0cd4ada1b1332f2d9d723e995e9.bindPopup(popup_34d94a2e4943905482263ae13e9bc50e)
+        marker_87b426050d76ecd6af4be85aabb09979.bindPopup(popup_0a3dbe1c918aba5487a0152733ebef65)
         ;
 
         
     
     
-            var marker_9e4d9498d2eee0f6098133cf4d8c2bab = L.marker(
+            var marker_9bdc97abd204c070a7552af207114d33 = L.marker(
                 [-12.874, 45.086],
                 {}
-            ).addTo(map_2cc0f218827be56a84b0573c79b8bb48);
+            ).addTo(map_8d672a8daad0c0e8a10bd9f6faeecf1b);
         
     
-        var popup_a47edcac2eaf403d6c460ef96566e433 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_5321f654a73c0a3a41e54eb3ba861aa2 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_30523a2a57b98870b98fabb1a3b4f06f = $(`<div id=&quot;html_30523a2a57b98870b98fabb1a3b4f06f&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Bandraboua</div>`)[0];
-                popup_a47edcac2eaf403d6c460ef96566e433.setContent(html_30523a2a57b98870b98fabb1a3b4f06f);
+                var html_ea53c926dc0ad07aab90b32acc2dab99 = $(`<div id=&quot;html_ea53c926dc0ad07aab90b32acc2dab99&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Bandraboua</div>`)[0];
+                popup_5321f654a73c0a3a41e54eb3ba861aa2.setContent(html_ea53c926dc0ad07aab90b32acc2dab99);
             
         
 
-        marker_9e4d9498d2eee0f6098133cf4d8c2bab.bindPopup(popup_a47edcac2eaf403d6c460ef96566e433)
+        marker_9bdc97abd204c070a7552af207114d33.bindPopup(popup_5321f654a73c0a3a41e54eb3ba861aa2)
         ;
 
         
     
     
-            var marker_d9b618776239b3209bb2f68e875e98c9 = L.marker(
+            var marker_61c07b310db9c34406975a9d2561ab23 = L.marker(
                 [-12.862, 45.087],
                 {}
-            ).addTo(map_2cc0f218827be56a84b0573c79b8bb48);
+            ).addTo(map_8d672a8daad0c0e8a10bd9f6faeecf1b);
         
     
-        var popup_95dae2e48ebe7d73ec449594500b0fb8 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_dea4e9c933d2e0a715730869a56a1c7d = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_e9a047c167d28423c3bc81ed9f11274d = $(`<div id=&quot;html_e9a047c167d28423c3bc81ed9f11274d&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Sada</div>`)[0];
-                popup_95dae2e48ebe7d73ec449594500b0fb8.setContent(html_e9a047c167d28423c3bc81ed9f11274d);
+                var html_d76546243d6ce4621b8e838872841306 = $(`<div id=&quot;html_d76546243d6ce4621b8e838872841306&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Sada</div>`)[0];
+                popup_dea4e9c933d2e0a715730869a56a1c7d.setContent(html_d76546243d6ce4621b8e838872841306);
             
         
 
-        marker_d9b618776239b3209bb2f68e875e98c9.bindPopup(popup_95dae2e48ebe7d73ec449594500b0fb8)
+        marker_61c07b310db9c34406975a9d2561ab23.bindPopup(popup_dea4e9c933d2e0a715730869a56a1c7d)
         ;
 
         
     
     
-            var marker_32875b24a662dc5b2a7ed737064b3f4c = L.marker(
+            var marker_42d0d34f7faff0f2da4c0c805f43c2bf = L.marker(
                 [-12.801, 45.175],
                 {}
-            ).addTo(map_2cc0f218827be56a84b0573c79b8bb48);
+            ).addTo(map_8d672a8daad0c0e8a10bd9f6faeecf1b);
         
     
-        var popup_2b876291b6507fc1dd9398db444cce66 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_17ba13eaf6b0b717fd419a832e0e66fc = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_eea5c30d55bd4a4fd4e256ff6c80c010 = $(`<div id=&quot;html_eea5c30d55bd4a4fd4e256ff6c80c010&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Ouangani</div>`)[0];
-                popup_2b876291b6507fc1dd9398db444cce66.setContent(html_eea5c30d55bd4a4fd4e256ff6c80c010);
+                var html_1eac6fc6309446dfbb9c4a704bdc1b9e = $(`<div id=&quot;html_1eac6fc6309446dfbb9c4a704bdc1b9e&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Ouangani</div>`)[0];
+                popup_17ba13eaf6b0b717fd419a832e0e66fc.setContent(html_1eac6fc6309446dfbb9c4a704bdc1b9e);
             
         
 
-        marker_32875b24a662dc5b2a7ed737064b3f4c.bindPopup(popup_2b876291b6507fc1dd9398db444cce66)
+        marker_42d0d34f7faff0f2da4c0c805f43c2bf.bindPopup(popup_17ba13eaf6b0b717fd419a832e0e66fc)
         ;
 
         
     
     
-            var marker_258f38ab01be586cf08bdb581eaf0d24 = L.marker(
+            var marker_2dfc3ffadc71e5bdd76f7192b16acd94 = L.marker(
                 [-12.974, 45.865],
                 {}
-            ).addTo(map_2cc0f218827be56a84b0573c79b8bb48);
+            ).addTo(map_8d672a8daad0c0e8a10bd9f6faeecf1b);
         
     
-        var popup_35ada0e5beddef52fd9a44a90d2ee838 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_5517d93bd018b99dcc55f26bbfbea983 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_b85826066d3b801d9d4b31a014a72952 = $(`<div id=&quot;html_b85826066d3b801d9d4b31a014a72952&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Chirongui</div>`)[0];
-                popup_35ada0e5beddef52fd9a44a90d2ee838.setContent(html_b85826066d3b801d9d4b31a014a72952);
+                var html_d3b0e1d18420bf281a67b190e42d0047 = $(`<div id=&quot;html_d3b0e1d18420bf281a67b190e42d0047&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Chirongui</div>`)[0];
+                popup_5517d93bd018b99dcc55f26bbfbea983.setContent(html_d3b0e1d18420bf281a67b190e42d0047);
             
         
 
-        marker_258f38ab01be586cf08bdb581eaf0d24.bindPopup(popup_35ada0e5beddef52fd9a44a90d2ee838)
+        marker_2dfc3ffadc71e5bdd76f7192b16acd94.bindPopup(popup_5517d93bd018b99dcc55f26bbfbea983)
         ;
 
         
     
     
-            var marker_20783780cb003f340f954fde8f832107 = L.marker(
+            var marker_62c583834de58f486d02f001b3e0c53b = L.marker(
                 [-12.889, 45.079],
                 {}
-            ).addTo(map_2cc0f218827be56a84b0573c79b8bb48);
+            ).addTo(map_8d672a8daad0c0e8a10bd9f6faeecf1b);
         
     
-        var popup_fc27c970fd8c4c26adb9a08ca04df1e3 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_7390b552038f70076c5ec0908b8e8c6d = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_d69c1c9d7c1b83c888b2620fb9c55fa0 = $(`<div id=&quot;html_d69c1c9d7c1b83c888b2620fb9c55fa0&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Boueni</div>`)[0];
-                popup_fc27c970fd8c4c26adb9a08ca04df1e3.setContent(html_d69c1c9d7c1b83c888b2620fb9c55fa0);
+                var html_65848fb8ded3049f0f2b1800d65a9984 = $(`<div id=&quot;html_65848fb8ded3049f0f2b1800d65a9984&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Boueni</div>`)[0];
+                popup_7390b552038f70076c5ec0908b8e8c6d.setContent(html_65848fb8ded3049f0f2b1800d65a9984);
             
         
 
-        marker_20783780cb003f340f954fde8f832107.bindPopup(popup_fc27c970fd8c4c26adb9a08ca04df1e3)
+        marker_62c583834de58f486d02f001b3e0c53b.bindPopup(popup_7390b552038f70076c5ec0908b8e8c6d)
         ;
 
         
     
     
-            var marker_3e03733e737cae6c9edb6db3f7472cdc = L.marker(
+            var marker_f47331d7117295e8a5badd33dd3ea454 = L.marker(
                 [-12.698, 45.032],
                 {}
-            ).addTo(map_2cc0f218827be56a84b0573c79b8bb48);
+            ).addTo(map_8d672a8daad0c0e8a10bd9f6faeecf1b);
         
     
-        var popup_3b7c0cdf4b1730450de06d36fee1f304 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_78ce52d8eb93dcdde964167f1319ad16 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_c2c4b6b5f3273cbbf2daabd5fadc9331 = $(`<div id=&quot;html_c2c4b6b5f3273cbbf2daabd5fadc9331&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Mtsamboro</div>`)[0];
-                popup_3b7c0cdf4b1730450de06d36fee1f304.setContent(html_c2c4b6b5f3273cbbf2daabd5fadc9331);
+                var html_fc7b28892c46e1196a4c3a46f121014b = $(`<div id=&quot;html_fc7b28892c46e1196a4c3a46f121014b&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Mtsamboro</div>`)[0];
+                popup_78ce52d8eb93dcdde964167f1319ad16.setContent(html_fc7b28892c46e1196a4c3a46f121014b);
             
         
 
-        marker_3e03733e737cae6c9edb6db3f7472cdc.bindPopup(popup_3b7c0cdf4b1730450de06d36fee1f304)
+        marker_f47331d7117295e8a5badd33dd3ea454.bindPopup(popup_78ce52d8eb93dcdde964167f1319ad16)
         ;
 
         
     
     
-            var marker_c1b7a1437b516d5c750246bb32e4bbf2 = L.marker(
+            var marker_07238fd9faae985df26a2d3cd5381314 = L.marker(
                 [-12.871, 45.068],
                 {}
-            ).addTo(map_2cc0f218827be56a84b0573c79b8bb48);
+            ).addTo(map_8d672a8daad0c0e8a10bd9f6faeecf1b);
         
     
-        var popup_4b34a2cc9f8b4bc35f18192933369b8a = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_322577a41cf8fa3de229deb572bc74e7 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_d4f11ccd7def7a5ef3861419d41adb81 = $(`<div id=&quot;html_d4f11ccd7def7a5ef3861419d41adb81&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Acoua</div>`)[0];
-                popup_4b34a2cc9f8b4bc35f18192933369b8a.setContent(html_d4f11ccd7def7a5ef3861419d41adb81);
+                var html_ca1b563a0275379a6495f1ba8ca49f92 = $(`<div id=&quot;html_ca1b563a0275379a6495f1ba8ca49f92&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Acoua</div>`)[0];
+                popup_322577a41cf8fa3de229deb572bc74e7.setContent(html_ca1b563a0275379a6495f1ba8ca49f92);
             
         
 
-        marker_c1b7a1437b516d5c750246bb32e4bbf2.bindPopup(popup_4b34a2cc9f8b4bc35f18192933369b8a)
+        marker_07238fd9faae985df26a2d3cd5381314.bindPopup(popup_322577a41cf8fa3de229deb572bc74e7)
         ;
 
         
     
     
-            var marker_0811d85dcc4c413fa60d6618fd0f2d9e = L.marker(
+            var marker_d058ad5d0202fe204bc2b03dbfbc08e1 = L.marker(
                 [-12.794, 45.136],
                 {}
-            ).addTo(map_2cc0f218827be56a84b0573c79b8bb48);
+            ).addTo(map_8d672a8daad0c0e8a10bd9f6faeecf1b);
         
     
-        var popup_d4672d0422d2a1bea637507150f160a0 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_96bd39eb7ffb6201f01107d9fff7efa6 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_fc063af366aa47bc3d1d2030cd9be925 = $(`<div id=&quot;html_fc063af366aa47bc3d1d2030cd9be925&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Mtsangamouji</div>`)[0];
-                popup_d4672d0422d2a1bea637507150f160a0.setContent(html_fc063af366aa47bc3d1d2030cd9be925);
+                var html_776e959337cdf25b0ae9c948a55b85e4 = $(`<div id=&quot;html_776e959337cdf25b0ae9c948a55b85e4&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Mtsangamouji</div>`)[0];
+                popup_96bd39eb7ffb6201f01107d9fff7efa6.setContent(html_776e959337cdf25b0ae9c948a55b85e4);
             
         
 
-        marker_0811d85dcc4c413fa60d6618fd0f2d9e.bindPopup(popup_d4672d0422d2a1bea637507150f160a0)
+        marker_d058ad5d0202fe204bc2b03dbfbc08e1.bindPopup(popup_96bd39eb7ffb6201f01107d9fff7efa6)
         ;
 
         
     
     
-            var marker_f17e846b29f86e14999c5a1ffe3df818 = L.marker(
+            var marker_c4da43d1a7b23ebd4030eba7780cfd18 = L.marker(
                 [-12.8, 45.137],
                 {}
-            ).addTo(map_2cc0f218827be56a84b0573c79b8bb48);
+            ).addTo(map_8d672a8daad0c0e8a10bd9f6faeecf1b);
         
     
-        var popup_61c80efbf1ab09f3e37690546f7aef11 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_b97a378394f7f3cfb13d3daf9c3848eb = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_a0bce80961503b27ba44f136416bcc55 = $(`<div id=&quot;html_a0bce80961503b27ba44f136416bcc55&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Tsingoni</div>`)[0];
-                popup_61c80efbf1ab09f3e37690546f7aef11.setContent(html_a0bce80961503b27ba44f136416bcc55);
+                var html_af77cd666ee84cef95eda8f3234968a2 = $(`<div id=&quot;html_af77cd666ee84cef95eda8f3234968a2&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Tsingoni</div>`)[0];
+                popup_b97a378394f7f3cfb13d3daf9c3848eb.setContent(html_af77cd666ee84cef95eda8f3234968a2);
             
         
 
-        marker_f17e846b29f86e14999c5a1ffe3df818.bindPopup(popup_61c80efbf1ab09f3e37690546f7aef11)
+        marker_c4da43d1a7b23ebd4030eba7780cfd18.bindPopup(popup_b97a378394f7f3cfb13d3daf9c3848eb)
         ;
 
         
     
     
-            var marker_ac6251d3215b1a01a345ef6ab809ac53 = L.marker(
+            var marker_864501c8fe61ca468bcd06d191e34853 = L.marker(
                 [-12.906, 45.118],
                 {}
-            ).addTo(map_2cc0f218827be56a84b0573c79b8bb48);
+            ).addTo(map_8d672a8daad0c0e8a10bd9f6faeecf1b);
         
     
-        var popup_49ec5507cbcfe74f3571a1eec034805e = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_2a994fcbb2f9fb6c6f904613a3751490 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_10dcd36a0132fbac4370502db5f16e79 = $(`<div id=&quot;html_10dcd36a0132fbac4370502db5f16e79&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Bandrele</div>`)[0];
-                popup_49ec5507cbcfe74f3571a1eec034805e.setContent(html_10dcd36a0132fbac4370502db5f16e79);
+                var html_21844500c46147112f1e97979f08173e = $(`<div id=&quot;html_21844500c46147112f1e97979f08173e&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Bandrele</div>`)[0];
+                popup_2a994fcbb2f9fb6c6f904613a3751490.setContent(html_21844500c46147112f1e97979f08173e);
             
         
 
-        marker_ac6251d3215b1a01a345ef6ab809ac53.bindPopup(popup_49ec5507cbcfe74f3571a1eec034805e)
+        marker_864501c8fe61ca468bcd06d191e34853.bindPopup(popup_2a994fcbb2f9fb6c6f904613a3751490)
         ;
 
         
     
     
-            var marker_273adc5934e3a1560a544f1c0f65888f = L.marker(
+            var marker_0a4fa703b33dcc7a864944a60c5ff305 = L.marker(
                 [-12.906, 45.178],
                 {}
-            ).addTo(map_2cc0f218827be56a84b0573c79b8bb48);
+            ).addTo(map_8d672a8daad0c0e8a10bd9f6faeecf1b);
         
     
-        var popup_b546beff1287bebf5a4474c1d7781f8f = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_876e32cb6ac58e2116c597e16babbb8f = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_d7c5f5574a037f7ac264d4aae7f771f2 = $(`<div id=&quot;html_d7c5f5574a037f7ac264d4aae7f771f2&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Kani-Kéli</div>`)[0];
-                popup_b546beff1287bebf5a4474c1d7781f8f.setContent(html_d7c5f5574a037f7ac264d4aae7f771f2);
+                var html_74524223e7191b2273fe718b69168acc = $(`<div id=&quot;html_74524223e7191b2273fe718b69168acc&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Kani-Kéli</div>`)[0];
+                popup_876e32cb6ac58e2116c597e16babbb8f.setContent(html_74524223e7191b2273fe718b69168acc);
             
         
 
-        marker_273adc5934e3a1560a544f1c0f65888f.bindPopup(popup_b546beff1287bebf5a4474c1d7781f8f)
+        marker_0a4fa703b33dcc7a864944a60c5ff305.bindPopup(popup_876e32cb6ac58e2116c597e16babbb8f)
         ;
 
         
     
     
-            var marker_a65f239b1fb61d32854bf6f16caed3d9 = L.marker(
+            var marker_a40d62b03dbcda4be25c925d6825d6bb = L.marker(
                 [-12.904, 45.22],
                 {}
-            ).addTo(map_2cc0f218827be56a84b0573c79b8bb48);
+            ).addTo(map_8d672a8daad0c0e8a10bd9f6faeecf1b);
         
     
-        var popup_7567c177b5c1101644874f00dd04d990 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_b2d0960da575170e92de606f93e7aeb8 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_56c3edb15c4c7edbf9d4977c3bacd1db = $(`<div id=&quot;html_56c3edb15c4c7edbf9d4977c3bacd1db&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Bouéni</div>`)[0];
-                popup_7567c177b5c1101644874f00dd04d990.setContent(html_56c3edb15c4c7edbf9d4977c3bacd1db);
+                var html_9d122d1bdd0507b6f1dd24d1fc93f95c = $(`<div id=&quot;html_9d122d1bdd0507b6f1dd24d1fc93f95c&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Bouéni</div>`)[0];
+                popup_b2d0960da575170e92de606f93e7aeb8.setContent(html_9d122d1bdd0507b6f1dd24d1fc93f95c);
             
         
 
-        marker_a65f239b1fb61d32854bf6f16caed3d9.bindPopup(popup_7567c177b5c1101644874f00dd04d990)
+        marker_a40d62b03dbcda4be25c925d6825d6bb.bindPopup(popup_b2d0960da575170e92de606f93e7aeb8)
         ;
 
         
     
     
-            var marker_d1c5c2fd6d8b73e7724d5940ff5e9415 = L.marker(
+            var marker_9fdd190bb4681f650daeb591d31e38d8 = L.marker(
                 [-12.955, 45.101],
                 {}
-            ).addTo(map_2cc0f218827be56a84b0573c79b8bb48);
+            ).addTo(map_8d672a8daad0c0e8a10bd9f6faeecf1b);
         
     
-        var popup_8ee197ab27abd6c1b38548484aa8b673 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        var popup_b7db88d77bf12233fc9bc1f644ff0ee3 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
 
         
             
-                var html_b9194508d44861b064bfddc945d7f730 = $(`<div id=&quot;html_b9194508d44861b064bfddc945d7f730&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Chiconi</div>`)[0];
-                popup_8ee197ab27abd6c1b38548484aa8b673.setContent(html_b9194508d44861b064bfddc945d7f730);
+                var html_a23bae1d08237d4808ef5d8b2ac2c0f3 = $(`<div id=&quot;html_a23bae1d08237d4808ef5d8b2ac2c0f3&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Chiconi</div>`)[0];
+                popup_b7db88d77bf12233fc9bc1f644ff0ee3.setContent(html_a23bae1d08237d4808ef5d8b2ac2c0f3);
             
         
 
-        marker_d1c5c2fd6d8b73e7724d5940ff5e9415.bindPopup(popup_8ee197ab27abd6c1b38548484aa8b673)
+        marker_9fdd190bb4681f650daeb591d31e38d8.bindPopup(popup_b7db88d77bf12233fc9bc1f644ff0ee3)
         ;
 
         
@@ -555,6 +576,41 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <p>En somme, la localisation de Mayotte dans l’océan Indien lui confère une position unique, et ses caractéristiques géographiques et administratives font d’elle un lieu aux influences diverses, reflétant à la fois son héritage africain, malgache et européen.</p>
+</section>
+<section id="géographie-et-nature" class="level1">
+<h1>1. Géographie et Nature</h1>
+<p><strong>Superficie</strong> : Mayotte s’étend sur environ 374 km², constituant l’une des plus petites collectivités territoriales de France par sa superficie.</p>
+<p><strong>Composition</strong> : L’île est formée de deux îles principales, Grande-Terre (ou Mahoré) et Petite-Terre (ou Pamanzi), ainsi que de plusieurs îlots environnants. La géographie de l’île est marquée par sa formation volcanique, ce qui lui confère un relief diversifié et accidenté.</p>
+<p><strong>Relief</strong> : Le paysage de Mayotte est dominé par des montagnes et des collines, le mont Bénara étant le point culminant à 660 mètres. Les côtes sont bordées par des plages de sable blanc et des mangroves.</p>
+<p><strong>Climat</strong> : Le climat tropical de Mayotte est caractérisé par une saison des pluies, de novembre à avril, et une saison sèche, de mai à octobre. Les températures moyennes varient entre 23 et 30 degrés Celsius, créant un environnement favorable à une biodiversité riche et diversifiée.</p>
+</section>
+<section id="population-et-culture" class="level1">
+<h1>2. Population et Culture</h1>
+<p><strong>Population</strong> : Avec environ 300 000 habitants, Mayotte est une île à forte densité de population et en croissance rapide. La population est majoritairement jeune, avec une proportion élevée de moins de 20 ans.</p>
+<p><strong>Langues</strong> : Le français est la langue officielle utilisée dans l’administration et l’éducation. Cependant, le shimaoré, une langue bantoue, et le kibushi, un dialecte malgache, sont largement parlés dans la vie quotidienne, reflétant la diversité culturelle de l’île.</p>
+<p><strong>Religion</strong> : La majorité des Mahorais pratiquent l’islam sunnite. Cette religion joue un rôle central dans la vie quotidienne et les traditions de l’île, influençant les fêtes, les cérémonies et les coutumes locales.</p>
+</section>
+<section id="économie" class="level1">
+<h1>3. Économie</h1>
+<p><strong>Secteurs principaux</strong> : - <strong>Agriculture</strong> : La production de vanille, d’ylang-ylang et de canne à sucre est au cœur de l’économie agricole de Mayotte. Ces produits sont également exportés et constituent une source importante de revenus. - <strong>Pêche</strong> : La pêche est une activité économique vitale pour de nombreux habitants de l’île, fournissant à la fois des moyens de subsistance et des ressources alimentaires. - <strong>Transferts publics</strong> : Les transferts financiers en provenance de la France métropolitaine jouent un rôle crucial dans l’économie de Mayotte, soutenant les infrastructures et les services publics.</p>
+<p><strong>Défis économiques</strong> : - Le taux de chômage est élevé, particulièrement parmi les jeunes. - L’économie informelle est prédominante, avec de nombreux habitants dépendant de petites activités non réglementées pour leur subsistance. - Les infrastructures, telles que les routes, les écoles et les hôpitaux, nécessitent des investissements significatifs pour répondre aux besoins croissants de la population.</p>
+</section>
+<section id="environnement-et-biodiversité" class="level1">
+<h1>4. Environnement et Biodiversité</h1>
+<p><strong>Lagon et récif corallien</strong> : Mayotte est entourée par l’un des plus grands lagons fermés au monde, abritant une biodiversité marine exceptionnelle. Les récifs coralliens, bien conservés, sont des habitats vitaux pour de nombreuses espèces marines, attirant les plongeurs et les chercheurs du monde entier.</p>
+<p><strong>Faune et flore</strong> : L’île héberge de nombreuses espèces endémiques, tant animales que végétales. Les forêts de Mayotte, encore largement intactes, abritent des lémuriens, des oiseaux rares et une flore riche. La conservation de ces écosystèmes est essentielle pour maintenir la biodiversité unique de l’île.</p>
+</section>
+<section id="société-et-politique" class="level1">
+<h1>5. Société et Politique</h1>
+<p><strong>Statut politique</strong> : Depuis 2011, Mayotte est un département et une région d’outre-mer de la France. Cette intégration a permis un certain nombre de réformes et de développements, mais pose également des défis en termes d’adaptation des structures locales aux standards métropolitains.</p>
+<p><strong>Représentation</strong> : Mayotte est représentée par deux députés à l’Assemblée nationale française et deux sénateurs. Le Conseil départemental de Mayotte gère les affaires locales, en coopération avec les autorités françaises.</p>
+<p><strong>Défis sociaux</strong> : - L’immigration clandestine en provenance des Comores voisines pose des défis considérables en termes de gestion des populations et de fourniture de services. - L’accès aux services de santé et à l’éducation est limité, avec des infrastructures souvent insuffisantes pour répondre aux besoins de la population. - Les conditions de vie sont parfois précaires, avec de nombreux habitants vivant dans des situations de pauvreté.</p>
+</section>
+<section id="conclusion" class="level1">
+<h1>Conclusion</h1>
+<p>Mayotte est une île de contrastes, où la richesse culturelle et naturelle coexiste avec des défis socio-économiques importants. En tant que département français d’outre-mer, elle bénéficie du soutien de la France métropolitaine, mais doit également naviguer des complexités liées à son histoire, sa géographie et sa démographie unique.</p>
+<p>L’avenir de Mayotte repose sur sa capacité à équilibrer le développement économique avec la préservation de son environnement exceptionnel. Le potentiel touristique, lié à ses plages, son lagon et ses récifs coralliens, représente une opportunité majeure pour l’île. Par ailleurs, l’amélioration des infrastructures et des services publics est essentielle pour répondre aux besoins croissants de la population et réduire les inégalités.</p>
+<p>En conclusion, Mayotte, avec sa diversité culturelle, sa richesse environnementale et son statut politique unique, offre un exemple fascinant des défis et des opportunités des régions d’outre-mer. La voie vers un avenir prospère et durable nécessitera une approche équilibrée, intégrant développement économique, justice sociale et conservation environnementale.</p>
 
 
 </section>
@@ -639,10 +695,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/bossdidiboss\.github\.io\/myte_project\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -652,8 +725,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -665,7 +747,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -709,6 +914,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -734,6 +940,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -797,4 +1029,5 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-</body></html>
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/BossdiDiboss/myte_project/blob/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/BossdiDiboss/myte_project/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
